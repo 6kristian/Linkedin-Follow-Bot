@@ -6,8 +6,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 import time
 
 # Replace these with your LinkedIn credentials
-LINKEDIN_EMAIL = 'frrokuk2@gmail.com'  # Your LinkedIn email
-LINKEDIN_PASSWORD = 'Crispy6@'         # Your LinkedIn password
+LINKEDIN_EMAIL = 'example@email.com'  # Your LinkedIn email
+LINKEDIN_PASSWORD = 'password'         # Your LinkedIn password
 
 # Initialize the WebDriver
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     
     # List of LinkedIn profile URLs to follow (replace with actual IT-related profiles)
     users_to_follow = [
-        'https://www.linkedin.com/in/jon-duli-87648a115/'
+        'linkedin profile links'
         # Add more profiles as needed
     ]
     
